@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000000"
+    tools:context="com.example.admin.viajeporelcasco.MainActivity">
+
+    <Button
+        android:text="SAN FELIPE NERI"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button4"
+        android:layout_weight="1"
+        android:background="@drawable/neri2"
+        android:onClick="gotoneri" />
+
+    <Button
+        android:text="NTRA SRA DE LA MERCED"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button3"
+        android:layout_weight="1"
+        android:background="@drawable/merced"
+        android:onClick="gotoexp" />
+
+    <Button
+        android:text="SAN JOSE"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button5"
+        android:layout_weight="1"
+        android:background="@drawable/sanjose"
+        android:onClick="gotocontacts"/>
+
+    <Button
+        android:text="SAN FRANCISCO DE ASIS"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="50px"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/button2"
+        android:layout_weight="1"
+        android:background="@drawable/asis"
+        android:onClick="gotopass"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="CASCO VIEJO PANAMA"
+        android:textColor="#ffffff"
+        android:textSize="35px"
+        android:background="#000000"
+        android:textAlignment="center"
+        android:id="@+id/button1"
+        android:onClick="gotoguorlin"/>
+
+</LinearLayout>
